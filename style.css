@@ -76,11 +76,11 @@ h1 {
   right: 2rem;
 }
 
-.again {
+/* .again {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
-}
+  top: 110%;
+  left: 35%;
+} */
 
 .guess {
   background: none;
@@ -103,6 +103,7 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 .btn:hover {
@@ -116,4 +117,18 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+.label-highscore {
+}
+
+/*for ipod*/
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .again {
+  }
+}
+
+/*for iphone*/
+@media screen and (max-width: 768px) {
+  .again {
+  }
 }
