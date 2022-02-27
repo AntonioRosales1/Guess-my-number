@@ -1,7 +1,7 @@
 'use strict';
 
 let SecretNumber = Math.trunc(Math.random() * 30) + 1;
-let score = 30;
+let score = 10;
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
@@ -32,7 +32,7 @@ document.querySelector('.check').addEventListener('click', function () {
       ).textContent = `You Loose! Add 50 Cents To Play Again!!`;
       document.querySelector(`.score`).textContent = 0;
       document.querySelector(`body`).style.backgroundColor = `skyblue`;
-      document.querySelector(`.number`).style.width = `50rem`;
+      document.querySelector(`.message`).style.width = `50rem`;
     }
   }
   //   guess is too low
@@ -50,7 +50,7 @@ document.querySelector('.check').addEventListener('click', function () {
       ).textContent = `You Loose! Add 50 Cents To Play Again!!`;
       document.querySelector(`.score`).textContent = 0;
       document.querySelector(`body`).style.backgroundColor = `skyblue`;
-      document.querySelector(`.number`).style.width = `50rem`;
+      document.querySelector(`.message`).style.width = `50rem`;
     }
   }
 
