@@ -40,7 +40,7 @@ document.querySelector('.check').addEventListener('click', function () {
     if (score > 1) {
       document.querySelector(
         `.message`
-      ).textContent = `Sorry Too Low Please Chose Between 1-20`;
+      ).textContent = `Sorry Too Low Please Chose Between 1-30`;
       score--;
       document.querySelector(`.score`).textContent = score;
       document.querySelector(`body`).style.backgroundColor = `violet`;
