@@ -43,7 +43,7 @@ document.querySelector('.check').addEventListener('click', function () {
       ).textContent = `Sorry Too Low Please Chose Between 1-30`;
       score--;
       document.querySelector(`.score`).textContent = score;
-      document.querySelector(`body`).style.backgroundColor = `violet`;
+      document.querySelector(`body`).style.backgroundColor = `gray`;
     } else {
       document.querySelector(
         `.message`
